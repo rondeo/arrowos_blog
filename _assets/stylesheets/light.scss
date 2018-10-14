@@ -41,6 +41,15 @@ $article-footer-link-color: $gray-dark;
 $article-footer-link-color-hover: $gray-darkest;
 $article-paginator-color-hover: $gray-darkest;
 
+// Custom header colors
+$blue: #4286f4;
+$article-header-h1-color: $blue;
+$article-header-h2-color: lighten($blue, 15);
+$article-header-h3-color: lighten($blue, 15);
+$article-header-h4-color: lighten($blue, 15);
+$article-header-h5-color: lighten($blue, 15);
+$article-header-h6-color: lighten($blue, 15);
+
 // Imports
 // =============================================================================
 

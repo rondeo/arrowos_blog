@@ -160,13 +160,23 @@
     display: block;
     margin-bottom: 30px;
   }
-  h2,
-  h3,
+  h2 {
+   display: block;
+    margin-bottom: 10px;
+    font-family: $sans-serif;
+    color: $article-header-h2-color;
+  }
+  h3 {
+   display: block;
+    margin-bottom: 10px;
+    font-family: $sans-serif;
+    color: $article-header-h3-color;
+  }
   h4 {
     display: block;
     margin-bottom: 10px;
     font-family: $sans-serif;
-    color: $article-post-titles-color;
+    color: $article-header-h4-color;
   }
   blockquote p {
     margin-bottom: 0;
