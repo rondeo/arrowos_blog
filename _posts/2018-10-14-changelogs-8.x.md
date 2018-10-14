@@ -2,7 +2,7 @@
 layout: post
 title: "Changelogs 8.x(OREO)"
 description: "This post is updated regularly whenever there's an update"
-tags: [arrowos, changelog, pie]
+tags: [arrowos, changelog, oreo]
 ---
 
 ## ArrowOS Changelogs for 8.x(OREO)
