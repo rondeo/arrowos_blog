@@ -10,7 +10,7 @@ Published 2018-07-12 by Kuber Sharma, Ganesh Varma
 
 #### To make your device official and be the official maintainer of ArrowOS you must fulfill all the below requirements as mentioned.
 
-![logo](/assets/documentation/logo.png)
+<p align="center"><img src="{% asset 'logo.png' @path %}" alt="ArrowOS" /></p>
 
 ## Requirements for the Official Device Maintainership Applicant:
 
