@@ -20,7 +20,7 @@ All the builds for official devices can be found [here](https://sourceforge.net/
 [Telegram Chat](https://t.me/arrowos)
 [Telegram Channel](https://t.me/arrow_os)
 
-You can find changelogs for Arrow-8.x(Oreo) [here](blog.arrowos.net/posts/changelogs-8-x)
+You can find changelogs for Arrow-8.x(Oreo) [here](https://blog.arrowos.net/posts/changelogs-8-x)
 
 ## CHANGELOGS
 ### 14th October, 2018

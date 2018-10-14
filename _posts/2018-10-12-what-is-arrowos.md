@@ -44,7 +44,7 @@ repo sync  -f --force-sync --no-clone-bundle -jX
 {% endhighlight %}
 Where X in the above command is no.of threads your CPU can handle.
 
-We have more detailed post on this topic [here](link here)
+We have more detailed post on this topic [here](https://blog.arrowos.net/posts/compilation-guide)
 
 ## Contributing
 
