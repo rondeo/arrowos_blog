@@ -43,12 +43,17 @@ $article-paginator-color-hover: $gray-lightest;
 
 // Custom header colors
 $blue: #4286f4;
+$orange: #e29d12;
+$green: #00c42a;
 $article-header-h1-color: $blue;
 $article-header-h2-color: lighten($blue, 15);
-$article-header-h3-color: lighten($blue, 15);
-$article-header-h4-color: lighten($blue, 15);
+$article-header-h3-color: $green;
+$article-header-h4-color: $orange;
 $article-header-h5-color: lighten($blue, 15);
 $article-header-h6-color: lighten($blue, 15);
+
+// Date footer custom color
+$lite-blue: lighten($blue, 18);
 
 // Imports
 // =============================================================================
