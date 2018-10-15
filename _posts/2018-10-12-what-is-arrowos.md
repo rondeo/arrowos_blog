@@ -7,7 +7,7 @@ priority: 1000
 tags: [arrowos, android, features]
 ---
 
-With tons of custom roms available out in the OpenSource community these days, we have always lacked a thing or two and been compramised with ourselves to stick around looking for a better alternative. Here at ArrowOS team we being the daily android users clearly understand your pain. This is where the whole idea of ArrowOS originated from, with the sole goal of providing a stable custom rom without any heavy framework customisations and keeping the performace to a full boost. Since then we have grown stronger with an ever supporting community of android enthusiasts and been pushing out the most stable and feature balanced custom rom available so far.
+With tons of custom roms available out there in Android Open-source community these days, where most of the users found to be using only a handful of features in daily life while bearing the extra loaded stuff unnecessarily. Before starting this project, the team members of ArrowOS were using a personalized aosp based rom with just few features and it turned out that its been liked by many of our close friends when we handed over this to them. Many of them suggested that why don' t we make as a ROM, so everyone can compile and use it. This is where ArrowOS began! with the sole goal of providing a stable custom rom without any heavy framework/UI customisations and trying to keep the performace to a full boost. Since then we have grown stronger with an ever supporting community of android enthusiasts and been trying to push out the most stable and feature balanced custom rom available so far.
 
 ## Features:
 #### Status bar:
