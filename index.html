@@ -1,13 +1,15 @@
 ---
 layout: default
 title: "Blog"
-description: "Chalk uses all the best tools and merges them into one premium blogging theme."
+description: "ArrowOS is an AOSP based project started with the aim of keeping things simple, clean and neat. We added just the right and mostly used stuff that will be actually USEFUL at the end of the day, aiming to deliver smooth performance with better battery life"
+pagination:
+  enabled: true
 ---
 
 <ul class="article-list">
   {% for post in paginator.posts %}
     <li class="article-list-item {% if site.scrollappear_enabled %}scrollappear{% endif %}">
-      <a href="{{ post.url | relative_url }}" title="{{ post.title }}">
+    <a href="{{ post.url | relative_url }}" title="{{ post.title }}">
         <h5>
           {{ post.title }}
           {% include svg-icon.html icon="arrow-right" %}

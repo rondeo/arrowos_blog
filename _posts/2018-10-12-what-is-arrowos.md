@@ -3,6 +3,7 @@ layout: post
 title: "What is ArrowOS?"
 description: ""
 thumb_image: "/assets/logo.png"
+priority: 1000
 tags: [arrowos, android, features]
 ---
 

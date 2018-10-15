@@ -2,9 +2,15 @@
 
 blog_theme: dark # Or use dark
 name: ArrowOS
-paginate: 25
+# Pagination Settings
+pagination:
+  enabled: true
+  per_page: 25
+  limit: 0
+  sort_field: 'priority'
+  sort_reverse: true
 url: https://blog.arrowos.net/
-
+permalink: '/posts/:slug'
 
 # Optional settings
 
@@ -75,8 +81,6 @@ exclude:
   - yarn.lock
 plugins:
   - jekyll-assets
-  - jekyll-paginate
+  - jekyll-paginate-v2
   - jekyll-sitemap
   - jemoji
-paginate_path: /posts/page/:num/
-permalink: posts/:slug
