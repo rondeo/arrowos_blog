@@ -3,7 +3,7 @@ layout: post
 title: "What is ArrowOS?"
 description: ""
 thumb_image: "/assets/logo.png"
-tags: [arrowos, android]
+tags: [arrowos, android, features]
 ---
 
 With tons of custom roms available out in the OpenSource community these days, we have always lacked a thing or two and been compramised with ourselves to stick around looking for a better alternative. Here at ArrowOS team we being the daily android users clearly understand your pain. This is where the whole idea of ArrowOS originated from, with the sole goal of providing a stable custom rom without any heavy framework customisations and keeping the performace to a full boost. Since then we have grown stronger with an ever supporting community of android enthusiasts and been pushing out the most stable and feature balanced custom rom available so far.
@@ -14,6 +14,7 @@ With tons of custom roms available out in the OpenSource community these days, w
   - Status bar items customisation.
   - Clock and Date customisation.
   - Traffic indicators
+  - Battery icon styles
 
 #### Buttons:
   - Device buttons and Nav bar customisation
@@ -63,16 +64,21 @@ With tons of custom roms available out in the OpenSource community these days, w
 
 #### Lockscreen:
   - Lockscreen shortcuts
+  - Locscreen charging info
   - Double tap to sleep on lockscreen
   - Music visualizer
 
 #### Misc:
+  - App Ops
   - Tap to wake
   - Pocket detection
   - AOSP recents clear all fab(oreo recents)
   - Weather
   - Swipe up on home button
   - Double press power button for camera
+  - Face auto unlock
+
+Can't find these features? Check out this [post](https://blog.arrowos.net/posts/where-are-the-features) for the full pathmap of features placed in the rom.
 
 ## Why use ArrowOS?
 #### Three words:
