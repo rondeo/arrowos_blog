@@ -11,8 +11,68 @@ With tons of custom roms available out in the OpenSource community these days, w
 ## Features:
 #### Status bar:
   - Double tap to sleep.
-  - Status bar icons customisation.
-  - 
+  - Status bar items customisation.
+  - Clock and Date customisation.
+  - Traffic indicators
+
+#### Buttons:
+  - Device buttons and Nav bar customisation
+  - Advanced reboot menu
+  - Enable or Disable Nav bar
+  - Navigation bar editor and layout configs
+  - Volume rocker playback, wake and reorient controls
+
+#### QS Panel:
+  - Customise rows and columns
+  - QS panel transparency
+  - Quick pulldown
+  - QS tiles title
+
+#### SystemUI themes:
+  - Automatic(wallpaper based)
+  - Light
+  - Dark
+  - Black
+
+#### Accent color:
+  - AmberAccent
+  - BlackAccent 
+  - BlueAccent 
+  - BlueGreyAccent 
+  - BrownAccent 
+  - CyanAccent 
+  - DeepOrangeAccent 
+  - DeepPurpleAccent 
+  - DuiDark 
+  - GBoardDark 
+  - GreenAccent 
+  - GreyAccent 
+  - IndigoAccent 
+  - LightBlueAccent 
+  - LightGreenAccent
+  - LimeAccent 
+  - OrangeAccent 
+  - PinkAccent 
+  - PurpleAccent 
+  - RedAccent 
+  - SettingsDark 
+  - SystemDark 
+  - TealAccent 
+  - YellowAccent 
+  - WhiteAccent
+
+#### Lockscreen:
+  - Lockscreen shortcuts
+  - Double tap to sleep on lockscreen
+  - Music visualizer
+
+#### Misc:
+  - Tap to wake
+  - Pocket detection
+  - AOSP recents clear all fab(oreo recents)
+  - Weather
+  - Swipe up on home button
+  - Double press power button for camera
 
 ## Why use ArrowOS?
 #### Three words:
