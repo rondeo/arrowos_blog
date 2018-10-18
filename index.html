@@ -6,6 +6,16 @@ pagination:
   enabled: true
 ---
 
+<div class="article-list-device-tag-footer">
+    <div class="article-list-device-tag">      
+    {% for post in paginator.posts %}
+    {% if post.device-tag and post.device-tag != blank %}
+        <a href="{{ 'tag/' | relative_url }}{{ post.device-tag }}" title="See all posts of this device"><span class="dott">{{ post.device-tag }}</span></a>
+    {% endif %}
+    {% endfor %}
+    </div>
+</div>
+
 <ul class="article-list">
   {% for post in paginator.posts %}
     <li class="article-list-item {% if site.scrollappear_enabled %}scrollappear{% endif %}">

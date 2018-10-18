@@ -10,7 +10,7 @@
 .article-list {
   display: block;
   padding: 0;
-  margin: 50px 0;
+  //margin: 50px 0;
   list-style: none;
   li {
     position: relative;
@@ -107,11 +107,45 @@
   }
 }
 
+.article-list-device-tag-footer {
+  display: block;
+  padding-top: 20px;
+  a {
+    display: inline-block;
+    font-size: 13px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 1px;
+    background-color: #efefef;
+    border-radius: 5px;
+    text-shadow: 1px 1px #fff;
+    margin-bottom: 3px;
+    margin-right: 7.5px;
+    color: #d21818;
+    vertical-align: middle;
+    &:hover {
+      color: $black;
+    }
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
+
+.dott::before {
+    content: "\25CF \0020";
+}
+
 .article-list-divider {
   margin: 0 15px;
 }
 
 .article-list-tags {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.article-list-device-tag {
   display: inline-block;
   vertical-align: top;
 }
@@ -223,10 +257,17 @@
   .article-list-footer {
     display: block;
   }
+  .article-list-device-tag-footer {
+    display: block;
+  }
   .article-list-divider:last-of-type {
     display: none;
   }
   .article-list-tags {
+    display: block;
+    margin-top: -7px;
+  }
+  .article-list-device-tag {
     display: block;
     margin-top: -7px;
   }
