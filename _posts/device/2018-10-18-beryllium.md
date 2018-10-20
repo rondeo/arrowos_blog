@@ -2,6 +2,7 @@
 layout: post
 title: "Pocophone F1 [beryllium]"
 description: "Know more news and tricks about your device from your maintainer."
+thumb_image: "https://st1.bgr.in/wp-content/uploads/2018/08/Poco-F1-product-page-3.jpg"
 tags: [arrowos, android, know-more, pocophone-f1]
 device-tag: [pocophone-f1]
 ---
