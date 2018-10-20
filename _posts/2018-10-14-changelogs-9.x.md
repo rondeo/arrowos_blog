@@ -2,6 +2,7 @@
 layout: post
 title: "Changelogs 9.x(PIE)"
 description: "This post is updated regularly whenever there's an update"
+thumb_image: "https://avatars3.githubusercontent.com/u/40351870?s=200&v=4"
 tags: [arrowos, changelog, pie]
 ---
 

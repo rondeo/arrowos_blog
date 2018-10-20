@@ -2,6 +2,7 @@
 layout: post
 title: "How to submit patches to ArrowOS Gerrit"
 description: "This guide helps you on how to start contributing to the project"
+thumb_image: "https://avatars3.githubusercontent.com/u/40351870?s=200&v=4"
 tags: [arrowos, android, gerrit]
 ---
 

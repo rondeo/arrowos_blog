@@ -2,6 +2,7 @@
 layout: post
 title: "Apply for Maintainership"
 description: "This form here mentions the requirements and guidelines to be a maintainer"
+thumb_image: "https://avatars3.githubusercontent.com/u/40351870?s=200&v=4"
 tags: [arrowos, android, maintainership]
 ---
 
