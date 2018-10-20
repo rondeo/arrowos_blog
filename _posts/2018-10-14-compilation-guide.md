@@ -4,6 +4,7 @@ title: "How to compile ArrowOS from source"
 description: "guide on how to compile rom from source"
 thumb_image: "https://avatars3.githubusercontent.com/u/40351870?s=200&v=4"
 tags: [arrowos, guide]
+priority: 997
 ---
 
 Published July 12, 2018 by Kuber Sharma, Bauuuuuu, Ganesh Varma

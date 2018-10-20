@@ -4,6 +4,7 @@ title: "Where are the features?"
 description: "This is a pathmap to all the features available in the rom"
 thumb_image: "https://avatars3.githubusercontent.com/u/40351870?s=200&v=4"
 tags: [arrowos, android, features]
+priority: 998
 ---
 Published Oct 15, 2018 by **Ganesh Varma**<br>
 

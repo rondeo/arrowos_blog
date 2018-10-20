@@ -4,6 +4,7 @@ title: "Changelogs 8.x(OREO)"
 description: "This post is updated regularly whenever there's an update"
 thumb_image: "https://avatars3.githubusercontent.com/u/40351870?s=200&v=4"
 tags: [arrowos, changelog, oreo]
+priority: 995
 ---
 
 ## ArrowOS Changelogs for 8.x(OREO)
