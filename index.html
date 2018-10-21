@@ -10,7 +10,7 @@ pagination:
     <div class="article-list-device-tag">      
     {% for post in paginator.posts %}
     {% if post.device-tag and post.device-tag != blank %}
-        <a href="{{ 'tag/' | relative_url }}{{ post.device-tag }}" title="See all posts of this device"><span class="dott">{{ post.device-tag }}</span></a>
+        <a href="{{ 'posts/' | relative_url }}{{ post.device-tag }}" title="See all posts of this device"><span class="dott">{{ post.device-tag }}</span></a>
     {% endif %}
     {% endfor %}
     </div>
