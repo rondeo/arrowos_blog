@@ -50,7 +50,15 @@ Most of the common features can be found under the **Settings->Display** section
         - Icon pack
         - Status bar weather
         - Lockscreen weather
+  - Density options
+	- Font Size
+	- Display Size
+	- Smallest Width
   - System theme category
+    - Night Mode
+	    - Automatic
+		- Always on
+		- Always off
     - SystemUI theme
         - Automatic
         - Light
@@ -116,6 +124,8 @@ Most of the common features can be found under the **Settings->Display** section
     - Double tap to sleep on lockscreen
     - Music visualizer
   - Face auto unlock
+  - Fingerprint Unlock after reboot
+  - Fingerprint authentication vibration
 
 ##### Features under System
   - Gestures
