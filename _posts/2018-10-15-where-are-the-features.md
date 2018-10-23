@@ -123,9 +123,10 @@ Most of the common features can be found under the **Settings->Display** section
         - Right shortcut
     - Double tap to sleep on lockscreen
     - Music visualizer
-  - Face auto unlock
-  - Fingerprint Unlock after reboot
-  - Fingerprint authentication vibration
+    - Fingerprint Unlock after reboot
+    - Fingerprint authentication vibration
+  - Privacy
+    - Face auto unlock
 
 ##### Features under System
   - Gestures
