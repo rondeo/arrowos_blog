@@ -25,6 +25,27 @@ All the builds for official devices can be found [here](https://sourceforge.net/
 You can find changelogs for Arrow-8.x(Oreo) [here](https://blog.arrowos.net/posts/changelogs-8-x)
 
 ## CHANGELOGS
+### 21st October, 2018
+
+  - Merged tag 'android-9.0.0_r12' 
+  - Fixed initial value of qs columns to default aosp 
+  - Added phonograph 
+  - Add NightMode under display SystemUI theme category 
+  - Added config to disable cdma call forward/waiting 
+  - Added conference uri support 
+  - Added support for implicit call rejection
+  - Added avoid wifi to cellular silent redial when roaming 
+  - Added config to control holding a video call 
+  - Added get sim card capacity count of sms 
+  - Added allow emergency ims network request in sim less case 
+  - Updater will generate changelog url dynamically 
+  - Updated pixel colors from taimen 
+  - Added fingerprint authentication vibration 
+  - Added unlock keystore with fingerprint after reboot 
+  - Added Expanded Desktop
+  - Fixed preferred calls sim not being disabled 
+  - And many more core optimizations & fixes
+
 ### 14th October, 2018
 
   - Added lockdown on power menu & its lockscreen visibility
