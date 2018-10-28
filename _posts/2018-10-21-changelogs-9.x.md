@@ -25,6 +25,30 @@ All the builds for official devices can be found [here](https://sourceforge.net/
 You can find changelogs for Arrow-8.x(Oreo) [here](https://blog.arrowos.net/posts/changelogs-8-x)
 
 ## CHANGELOGS
+### 28th October, 2018
+  - VoLTE icon
+  - VoLTE icon enable and disable switch.(disabled by default)
+  - Added location tile cycle modes
+  - Added arrowos default wallpaper
+  - Fixed night mode to work on light theme
+  - Added hide signal icons for disabled sims  
+  - Fixed usbdevicemanager null object reference  
+  - Added screen unpinning on devices without navbar
+  - Notification light switch hide pref on no config
+  - Removed night mode from developers settings  
+  - Moved battery light settings into dashboard battery section
+  - Swipetonotificationsettings: added proper check on search index
+  - Fixed ghost toggling of night mode
+  - Fixed NPE of battery settings
+  - Refactored ArrowOS preference in About into Firmware dialog.
+  - Also added info for build date, and official status of the rom.
+  - Fuelgauge optimisations for better and accurate battery stats.
+  - Re-arranged density, display and font size options to their own category(Desity options).
+  - Added screenshot QS tile.
+  - Added translations
+  - Upstream changes
+  - And many more core optimizations & Fixes
+
 ### 21st October, 2018
 
   - Merged tag 'android-9.0.0_r12' 
