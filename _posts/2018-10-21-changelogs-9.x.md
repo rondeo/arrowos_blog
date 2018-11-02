@@ -25,6 +25,32 @@ All the builds for official devices can be found [here](https://sourceforge.net/
 You can find changelogs for Arrow-8.x(Oreo) [here](https://blog.arrowos.net/posts/changelogs-8-x)
 
 ## CHANGELOGS
+### 2nd November, 2018
+  - New Spooky Bootanimation (Halloween Special)
+  - Spooky Halloween notification sounds (Halloween Special)
+  - Halloween wallpaper (Halloween Special)
+  - Themed to Halloween orange accent by default (Halloween Special)
+  - Added spooky Halloween ringtone & alarm sound by default (Halloween Special)
+  - Added spooky SeLinux status message (Halloween Special)
+  - Fixed battery charging indication bug 
+  - Secure QS tiles when the device is locked (requires unlocking to use quick tiles)
+  - Added Recorder app 
+  - Themed package installer 
+  - Added all pixel & pixel 2 sounds
+  - Added Google’s new alarm sounds
+  - Added Audio and Screen recorder
+  - Added Google nexus audio files
+  - Made batterysaver dark mode state configurable 
+  - Lockscreen charging indication fixed 
+  - Disabled Hungarian spell checking
+  - Add Luxembourgish keyboard & spellchecking dictionary
+  - Fixed battery settings fc 
+  - SDClang optimizations 
+  - Enabled Smart notification reply for supported apps
+  - Some string improvements for better user understanding
+  - Updated Translations
+  - And many more core optimizations & fixes
+  
 ### 28th October, 2018
   - VoLTE icon
   - VoLTE icon enable and disable switch.(disabled by default)
