@@ -10,7 +10,7 @@ priority: 999
 ## ArrowOS Changelogs for 9.x(PIE)
 
 Published July 28, 2018 by Kuber Sharma, Bauuuuu, Ganesh Varma, Amitava Mitra<br>
-Last updated on: 14th October, 2018
+Last updated on: 2nd November, 2018
 
 ## Important Note
 This post is updated whenever there are any new updates!
@@ -35,7 +35,7 @@ You can find changelogs for Arrow-8.x(Oreo) [here](https://blog.arrowos.net/post
   - Fixed battery charging indication bug 
   - Secure QS tiles when the device is locked (requires unlocking to use quick tiles)
   - Added Recorder app 
-  - Themed package installer 
+  - Themed package installer
   - Added all pixel & pixel 2 sounds
   - Added Google’s new alarm sounds
   - Added Audio and Screen recorder
