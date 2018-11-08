@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://blog.arrowos.net/</loc>
+  <lastmod>2018-11-08T10:15:19+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://blog.arrowos.net/about</loc>
+  <lastmod>2018-11-08T10:15:19+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.arrowos.net/posts/potter</loc>
+  <lastmod>2018-11-08T10:15:19+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.arrowos.net/posts/zenfone3</loc>
+  <lastmod>2018-11-08T10:15:19+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.arrowos.net/posts/redmi-note-5-pro</loc>
+  <lastmod>2018-11-08T10:15:19+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.arrowos.net/posts/redmi-note-3</loc>
+  <lastmod>2018-11-08T10:15:19+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.arrowos.net/posts/oneplus3</loc>
+  <lastmod>2018-11-08T10:15:19+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.arrowos.net/posts/z2-plus</loc>
+  <lastmod>2018-11-08T10:15:19+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.arrowos.net/posts/pocophone-f1</loc>
+  <lastmod>2018-11-08T10:15:19+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.arrowos.net/posts/weekly-post-20-oct-2018</loc>
+  <lastmod>2018-11-08T10:15:19+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.arrowos.net/tag/arrowos/</loc>
+  <lastmod>2018-11-08T10:15:19+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.arrowos.net/tag/android/</loc>
+  <lastmod>2018-11-08T10:15:19+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.arrowos.net/tag/weekly-post/</loc>
+  <lastmod>2018-11-08T10:15:19+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.arrowos.net/posts/what-is-arrowos</loc>
+  <lastmod>2018-11-08T10:15:19+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.arrowos.net/tag/features</loc>
+  <lastmod>2018-11-08T10:16:03+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.arrowos.net/posts/changelogs-9-x</loc>
+  <lastmod>2018-11-08T10:15:19+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.arrowos.net/tag/changelog/</loc>
+  <lastmod>2018-11-08T10:15:19+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.arrowos.net/tag/pie/</loc>
+  <lastmod>2018-11-08T10:15:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.arrowos.net/posts/where-are-the-features</loc>
+  <lastmod>2018-11-08T10:15:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.arrowos.net/posts/compilation-guide</loc>
+  <lastmod>2018-11-08T10:15:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.arrowos.net/tag/guide/</loc>
+  <lastmod>2018-11-08T10:15:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.arrowos.net/posts/gerrit-guide</loc>
+  <lastmod>2018-11-08T10:15:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.arrowos.net/tag/gerrit/</loc>
+  <lastmod>2018-11-08T10:15:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.arrowos.net/posts/changelogs-8-x</loc>
+  <lastmod>2018-11-08T10:15:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.arrowos.net/tag/oreo/</loc>
+  <lastmod>2018-11-08T10:15:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.arrowos.net/posts/apply-for-maintainership</loc>
+  <lastmod>2018-11-08T10:15:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.arrowos.net/tag/maintainership/</loc>
+  <lastmod>2018-11-08T10:15:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.arrowos.net/tag/know-more/</loc>
+  <lastmod>2018-11-08T10:15:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.arrowos.net/tag/potter/</loc>
+  <lastmod>2018-11-08T10:15:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.arrowos.net/tag/Moto%20G5%20Plus</loc>
+  <lastmod>2018-11-08T10:16:03+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.arrowos.net/tag/zenfone3/</loc>
+  <lastmod>2018-11-08T10:15:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.arrowos.net/tag/redmi-note-5-pro/</loc>
+  <lastmod>2018-11-08T10:15:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.arrowos.net/tag/redmi-note-3/</loc>
+  <lastmod>2018-11-08T10:15:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.arrowos.net/tag/oneplus3/</loc>
+  <lastmod>2018-11-08T10:15:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.arrowos.net/tag/z2-plus/</loc>
+  <lastmod>2018-11-08T10:15:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.arrowos.net/tag/Zuk</loc>
+  <lastmod>2018-11-08T10:16:03+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.arrowos.net/tag/pocophone-f1/</loc>
+  <lastmod>2018-11-08T10:15:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.arrowos.net/posts/link%20here</loc>
+  <lastmod>2018-11-08T10:16:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>
