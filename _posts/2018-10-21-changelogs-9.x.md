@@ -10,7 +10,7 @@ priority: 999
 ## ArrowOS Changelogs for 9.x(PIE)
 
 Published July 28, 2018 by Kuber Sharma, Bauuuuu, Ganesh Varma, Amitava Mitra<br>
-Last updated on: 2nd November, 2018
+Last updated on: 11th November, 2018
 
 ## Important Note
 This post is updated whenever there are any new updates!
@@ -25,6 +25,19 @@ All the builds for official devices can be found [here](https://sourceforge.net/
 You can find changelogs for Arrow-8.x(Oreo) [here](https://blog.arrowos.net/posts/changelogs-8-x)
 
 ## CHANGELOGS
+### 11th November, 2018
+ - November security patch r16.
+ - Longpress power for torch on lockscreen.
+ - Full navbar gestures (swipe left for back action).
+ - Double tap on navbar to sleep.
+ - Toggle to set QS brightness slider on bottom.
+ - Toggle to completly disable brightness slider from QS panel.
+ - Full FDE (encryption) support. (device specific)
+ - Option to set separate ringtones for mutilple sims.
+ - Latest translation changes.
+ - many more upstream changes & fixes.
+ - Device related fixes and kernel upstream
+
 ### 2nd November, 2018
   - New Spooky Bootanimation (Halloween Special)
   - Spooky Halloween notification sounds (Halloween Special)
