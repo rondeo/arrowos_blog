@@ -10,7 +10,7 @@ priority: 999
 ## ArrowOS Changelogs for 9.x(PIE)
 
 Published July 28, 2018 by Kuber Sharma, Bauuuuu, Ganesh Varma, Amitava Mitra<br>
-Last updated on: 11th November, 2018
+Last updated on: 18th November, 2018
 
 ## Important Note
 This post is updated whenever there are any new updates!
@@ -25,6 +25,20 @@ All the builds for official devices can be found [here](https://sourceforge.net/
 You can find changelogs for Arrow-8.x(Oreo) [here](https://blog.arrowos.net/posts/changelogs-8-x)
 
 ## CHANGELOGS
+
+### 18th November, 2018
+- Add Custom Icon Pack support
+- Swipe down gesture support on Launcher
+- Configurable App title lables in drawer and homescreen
+- Add support for ringtones per sim
+- Translations by community merged
+- Messaging app updates, pixel color default
+- Long touch on  QS Title will show detailed view
+- Fixed QS Tiles title visibility
+- Qcom HAL upates
+- VoLTE icon from OOS Pie
+- Other changes: optimisations, core changes, package updates etc. More info can be seen on gerrit
+
 ### 11th November, 2018
  - November security patch r16.
  - Longpress power for torch on lockscreen.
