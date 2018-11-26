@@ -10,7 +10,7 @@ priority: 999
 ## ArrowOS Changelogs for 9.x(PIE)
 
 Published July 28, 2018 by Kuber Sharma, Bauuuuu, Ganesh Varma, Amitava Mitra<br>
-Last updated on: 18th November, 2018
+Last updated on: 25th November, 2018
 
 ## Important Note
 This post is updated whenever there are any new updates!
@@ -25,6 +25,33 @@ All the builds for official devices can be found [here](https://sourceforge.net/
 You can find changelogs for Arrow-8.x(Oreo) [here](https://blog.arrowos.net/posts/changelogs-8-x)
 
 ## CHANGELOGS
+
+### 25th November, 2018
+
+-  Add new feature of One-hand UI Mode
+-  Statusbar battery level device filter: add a few more ones
+-  SystemUI: Show bluetooth battery level when available
+-  Automatic translation import
+-  fwb: Implement alternative device key handler
+-  base: add settings for device features
+-  BurnInProtection: Fix null object reference with timer
+-  Do not move the multi-window divider when showing IME
+-  Fix StatusBar icons tinting when in split screen
+-  Framework: Remove some methods from boot image profile
+-  SystemUI: Fix mCallbacks is not thread-safe
+-  Synchronize mPermissions to void NullPointerException
+-  Remove NotificationVisibility storage pool
+-  Keyguard: Remove carrier text for disabled SIMs
+-  SignalClusterView: Hide signal icons for disabled SIMs
+-  Refusing to enter PIP mode when activity destroyed
+-  Fix PIP media session listener for secondary users
+-  Fix the behavior of keyguard bouncer in a corner case
+-  SystemUI: Fixes context for tiles without longClick
+-  ActivityManager: Fix display id JE issue
+-  am: Fix top activity resume with secure keyguard
+-  Delay blanking of displays to improve performance
+-  Fix intermittent slowness in resolver activity towards end of day
+-  Other changes: core optimisations, device side changes. More info can be seen on gerrit
 
 ### 18th November, 2018
 - Add Custom Icon Pack support
