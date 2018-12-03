@@ -10,7 +10,7 @@ priority: 999
 ## ArrowOS Changelogs for 9.x(PIE)
 
 Published July 28, 2018 by Kuber Sharma, Bauuuuu, Ganesh Varma, Amitava Mitra<br>
-Last updated on: 25th November, 2018
+Last updated on: 1st December, 2018
 
 ## Important Note
 This post is updated whenever there are any new updates!
@@ -25,6 +25,27 @@ All the builds for official devices can be found [here](https://sourceforge.net/
 You can find changelogs for Arrow-8.x(Oreo) [here](https://blog.arrowos.net/posts/changelogs-8-x)
 
 ## CHANGELOGS
+### 1st December, 2018
+- Updated DeskClock, also added support of power off alarm feature (Device dependent).
+- Changed default animation scales to x0.8.
+- Optimisations for faster animation speeds.
+- Animation scale can be tweaked using a seekbar.
+- Added a toast when screenshot is deleted
+- Prevent crash when multiple Screenshot request is made
+- Expose screenshot flash colors for themes
+- Fixed too big spacing between QS icons in landscape on sw600dp 
+- Import updated APNs from Google.
+- Fixed: removed duplicate alarm sounds.
+- Updated translations.
+- Added Reboot and Recovery QS tile.
+- Added Night Light brightness mode options.
+- Fixed: DnD tile long-press.
+- Quickstep: added Rounded square icon shape.
+- Quickstep: App Apps search bar has rounded corners.
+- Removed: QS panel Opacity 
+- Fixed screen saver FC due to missing flag 
+- touch response optimizations 
+- Other changes: core optimisations, device side changes. More info can be seen on gerrit.
 
 ### 25th November, 2018
 
