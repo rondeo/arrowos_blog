@@ -36,7 +36,7 @@ Android Security patch Level : 5 Dec 2018
 - DownloadProvider: ability to pause/resume downloads
 - Prevent crash when multiple Screenshot request is made
 - LatinIME: Fix dicttool build
-- Latin IME bug with deleted text will reappear after screen       orientation changes
+- Latin IME bug with deleted text will reappear after screen orientation changes
 - Fixing layouts and adding 5th row to QWERTZ
 - LatinIME: Fix to English dictionary can be added after deleting
 - Add 5th number row to keyboard.
