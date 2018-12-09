@@ -25,6 +25,27 @@ All the builds for official devices can be found [here](https://sourceforge.net/
 You can find changelogs for Arrow-8.x(Oreo) [here](https://blog.arrowos.net/posts/changelogs-8-x)
 
 ## CHANGELOGS
+### 8th December, 2018
+From last few weeks team discussions we're bringing in few changes to our weeklies startegy.The weeklies now will be moved to bi-weeklies. Which means there will be update after the android security bulletin starting each month and the second update will be within next 10-14 days of first update. Overall two updates per month. We are at this stage that the changes to source are not very dynamic as compared to early PIE release days, rather pretty stable. This is to give us and the maintainers more firm control over the changes being introduced and enough time to test them out for a more refined and stable update to our users. Having written that, the critical updates related with specific device will be released as and when required. Moreover, from our stats we are noticing that few devices still have huge userbase on ArrOW Oreo and hence for these devices we will provide the Oreo updates with latest securrity patch merged and misc fixes.
+
+Android Security patch Level : 5 Dec 2018
+- Option to unlink ringtone and notification sound
+- Keymaster updates
+- Fix high battery drain after using flashlight
+- DownloadProvider: allow more redirects
+- DownloadProvider: ability to pause/resume downloads
+- Prevent crash when multiple Screenshot request is made
+- LatinIME: Fix dicttool build
+- Latin IME bug with deleted text will reappear after screen       orientation changes
+- Fixing layouts and adding 5th row to QWERTZ
+- LatinIME: Fix to English dictionary can be added after deleting
+- Add 5th number row to keyboard.
+- Launcher: Add back button to Settings 
+- Launcher: Move package icon to the end if the preference 
+- Translations 
+- Rremoved Turbo
+- device related fixes, kernel upstream
+
 ### 1st December, 2018
 - Updated DeskClock, also added support of power off alarm feature (Device dependent).
 - Changed default animation scales to x0.8.
