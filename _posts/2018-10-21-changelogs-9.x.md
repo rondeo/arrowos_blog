@@ -25,6 +25,22 @@ All the builds for official devices can be found [here](https://sourceforge.net/
 You can find changelogs for Arrow-8.x(Oreo) [here](https://blog.arrowos.net/posts/changelogs-8-x)
 
 ## CHANGELOGS
+### 12th January, 2018
+- Merged android-9.0.0_r30 tag (Jan security patches)
+- Fix unlinked ringtone and notification volumes panels
+- Make installer header look a little better
+- Show a more descriptive message when vendor.img is out of date
+- Snap camera updates and fixes
+- Only show bluetooth icon when connected & enabled
+- Don't crash if there is IR HAL is not declared
+- Packages like Camera2, Email, UnifiedMail, Exchange are updated,
+- Volume slider related fixes
+- Some layout changes in Sound Settings
+- Fixed Settings force close when searching for second time,
+- Fixed a crash for bad package name,
+- Translations
+- several of optimizations, core changes and fixes
+
 ### 8th December, 2018
 From last few weeks team discussions we're bringing in few changes to our weeklies startegy.The weeklies now will be moved to bi-weeklies. Which means there will be update after the android security bulletin starting each month and the second update will be within next 10-14 days of first update. Overall two updates per month. We are at this stage that the changes to source are not very dynamic as compared to early PIE release days, rather pretty stable. This is to give us and the maintainers more firm control over the changes being introduced and enough time to test them out for a more refined and stable update to our users. Having written that, the critical updates related with specific device will be released as and when required. Moreover, from our stats we are noticing that few devices still have huge userbase on ArrOW Oreo and hence for these devices we will provide the Oreo updates with latest securrity patch merged and misc fixes.
 
