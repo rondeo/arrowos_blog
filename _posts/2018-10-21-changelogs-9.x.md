@@ -25,7 +25,24 @@ All the builds for official devices can be found [here](https://sourceforge.net/
 You can find changelogs for Arrow-8.x(Oreo) [here](https://blog.arrowos.net/posts/changelogs-8-x)
 
 ## CHANGELOGS
-### 12th January, 2018
+### 28th January, 2019
+- Fixed weather not getting updated 
+- Keyguard weather styles, option to display weather and conditions in one line
+- Removed Yahoo weather provider
+- Option to add Custom API key for OpenWeatherMap
+- Added Navigation Bar QS Tile toggle
+- Moved out buttons and navbar option to dashboard
+- Fixed signature spoofing (microG)
+- FMradio: fixed crash when adding radio station to favorites
+- Display Dash charging for dash charge in battery settings(oneplus devices)
+- Fix mediascanner access permissions to external storage 
+- Make keyguard weather icon smaller
+- Hide check button when using PIN quick unlock
+- Auto face unlock v2 for pie 
+- Unconditional led notifications for dialer and many other apps
+- Translation update for several apps
+
+### 12th January, 2019
 - Merged android-9.0.0_r30 tag (Jan security patches)
 - Fix unlinked ringtone and notification volumes panels
 - Make installer header look a little better
