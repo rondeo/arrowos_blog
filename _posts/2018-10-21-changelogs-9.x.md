@@ -10,7 +10,7 @@ priority: 999
 ## ArrowOS Changelogs for 9.x(PIE)
 
 Published July 28, 2018 by Kuber Sharma, Bauuuuu, Ganesh Varma, Amitava Mitra<br>
-Last updated on: 28th January, 2019
+Last updated on: 14th Feb, 2019
 
 ## Important Note
 This post is updated whenever there are any new updates!
@@ -23,6 +23,34 @@ All the builds for official devices can be found [here](https://sourceforge.net/
 [Telegram Channel](https://t.me/arrow_os)
 
 You can find changelogs for Arrow-8.x(Oreo) [here](https://blog.arrowos.net/posts/changelogs-8-x)
+
+## CHANGELOGS
+
+# 14th Feb, 2019 
+- Merge February Security patch(r31)
+- new Volte icon extracted from asus Pie beta
+- Fixed signature spoofing support
+- Hide arrows in Network Traffic indicators
+- Move statusbar weather to QS statusbar header
+- Move net monitor to expanded statusbar header
+- Make weather clickable in QS status bar header
+- Make traffic clickable in QS status bar header
+- Make statusbar header net monitor play nice with the QS Scrim
+- Clear all lingering notifications when network is disconnected
+- Remove unnecessary right padding from time picker
+- Network traffic: fix indicator not hiding on lost connection
+- Net monitor: fix text color on light theme
+- Statusbar net monitor: stop the handler if screen is off
+- SystemUI: Ambient Display: fixed overlap of  weather and notifications
+- Fix disappearing home/recents button
+- Translations Updated
+- Updated qcom hals
+- optimisations, core changes and fixes which is not mentioned here but can be seen at Github Org or Gerrit
+
+New Devices : Motorola One Power (chef), Smartron srt (rimo02a), Motorola G5 (cedric)
+
+Dropped Devices: Xiaomi Mi A1 (tissot)
+Builds are available on sourceforge already, OTA will be available within 24hrs!!!
 
 ## CHANGELOGS
 ### 28th January, 2019
