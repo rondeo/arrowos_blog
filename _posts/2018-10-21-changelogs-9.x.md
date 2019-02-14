@@ -26,7 +26,7 @@ You can find changelogs for Arrow-8.x(Oreo) [here](https://blog.arrowos.net/post
 
 ## CHANGELOGS
 
-# 14th Feb, 2019 
+### 14th Feb, 2019 
 - Merge February Security patch(r31)
 - new Volte icon extracted from asus Pie beta
 - Fixed signature spoofing support
@@ -52,7 +52,6 @@ New Devices : Motorola One Power (chef), Smartron srt (rimo02a), Motorola G5 (ce
 Dropped Devices: Xiaomi Mi A1 (tissot)
 Builds are available on sourceforge already, OTA will be available within 24hrs!!!
 
-## CHANGELOGS
 ### 28th January, 2019
 - Fixed weather not getting updated 
 - Keyguard weather styles, option to display weather and conditions in one line
