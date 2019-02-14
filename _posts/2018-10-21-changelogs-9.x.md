@@ -48,9 +48,8 @@ You can find changelogs for Arrow-8.x(Oreo) [here](https://blog.arrowos.net/post
 - optimisations, core changes and fixes which is not mentioned here but can be seen at Github Org or Gerrit
 
 New Devices : Motorola One Power (chef), Smartron srt (rimo02a), Motorola G5 (cedric)
-
 Dropped Devices: Xiaomi Mi A1 (tissot)
-Builds are available on sourceforge already, OTA will be available within 24hrs!!!
+# Builds are available on sourceforge already, OTA will be available within 24hrs!!!
 
 ### 28th January, 2019
 - Fixed weather not getting updated 
