@@ -10,7 +10,7 @@ priority: 999
 ## ArrowOS Changelogs for 9.x(PIE)
 
 Published July 28, 2018 by Kuber Sharma, Bauuuuu, Ganesh Varma, Amitava Mitra<br>
-Last updated on: 14th Feb, 2019
+Last updated on: 14th Mar, 2019
 
 ## Important Note
 This post is updated whenever there are any new updates!
@@ -25,6 +25,42 @@ All the builds for official devices can be found [here](https://sourceforge.net/
 You can find changelogs for Arrow-8.x(Oreo) [here](https://blog.arrowos.net/posts/changelogs-8-x)
 
 ## CHANGELOGS
+
+### 14th Mar, 2019 
+- Android security patch March (r34)
+- OOS style network traffic indicator
+- Individual toggles for QS and statusbar traffic indicators
+- systemui: reduce padding between signal icons and battery
+- BatteryMeterView: Fix logcat spam
+- Use normal tinting for emergency icons
+- fix status bar mobile view layout problem
+- Improve performance of unclipped save layers.
+- Fix flickering issue when live wallpaper is showing on aod
+- wake from aod on unplug if we show on charging only
+- Dash charging: Add the battery percent back
+- Re-add WPS implementation
+- Fix summary text for advanced button
+- Settings: Bring back Uptime
+- Settings: show battery times in summary
+- Settings: enable SIM card ringtone only if slot not empty
+- replaced Simple gallery with AOSP Gallery
+- Automatic translation imports
+- Fix carrier config option not hidden on a CDMA phone
+- NfcNci: make T3T/Nfc-F HCE optional
+- Fixed tinting for emergency icons
+- Fixes to elliptic ultrasound devices (device specific)
+- removed teal color from the default printer service
+- Use GoogleSans on package installer app title
+- Updated search bar style on dark theme
+- DocumentsUI: Improve dark theme
+- DocumentsUI: Fix navbar themeing
+- DocumentsUI: support night mode
+- Translations Updated
+
+# New devices added:
+chiron(Xiaomi Mi Mix 2) - @Perfectime94
+platina(Xiaomi MI 8 Lite) - @melvingarcia
+# Builds are available on sourceforge already, OTA will be available within 24hrs!!!
 
 ### 14th Feb, 2019 
 - Merge February Security patch(r31)
