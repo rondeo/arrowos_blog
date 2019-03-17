@@ -9,7 +9,7 @@ pagination:
   limit: 0
   sort_field: 'priority'
   sort_reverse: true
-url: https://blog.arrowos.net/
+url: https://blog.arrowos.net
 permalink: '/posts/:slug'
 
 # Optional settings
