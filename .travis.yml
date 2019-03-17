@@ -21,3 +21,10 @@ env:
     - LC_ALL=en_US.UTF-8
     - JEKYLL_ENV=production
 
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
+  keep-history: true
+  on:
+    branch: arrow
