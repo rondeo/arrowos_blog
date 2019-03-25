@@ -9,8 +9,8 @@ priority: 999
 
 ## ArrowOS Changelogs for 9.x(PIE)
 
-Published July 28, 2018 by Kuber Sharma, Bauuuuu, Ganesh Varma, Amitava Mitra<br>
-Last updated on: 14th Mar, 2019
+First Published July 28, 2018 by Kuber Sharma, Bauuuuu, Ganesh Varma, Amitava Mitra<br>
+Last updated on: 26th Mar, 2019
 
 ## Important Note
 This post is updated whenever there are any new updates!
@@ -25,6 +25,29 @@ All the builds for official devices can be found [here](https://sourceforge.net/
 You can find changelogs for Arrow-8.x(Oreo) [here](https://blog.arrowos.net/posts/changelogs-8-x)
 
 ## CHANGELOGS
+
+### 26th Mar, 2019 
+- Ambient music ticker AoD: make it compatibile with double tap sensor
+- Ambient music ticker: play nice with omni weather
+- Ambient Display Music Ticker: Nuke song count info
+- Ambient Music Ticker: make it pixel like 
+- Fix lockscreen double tap to open notifications after ambient music
+- Screen off to skip track: Add Spotify/KDEConn/etc. 
+- Snap: Fix picture size preference 
+- Ambient display music ticker 
+- Turn on display if Doze On Charge is Enabled 
+- dynamic arrow indicators for statusbar network traffic 
+- expandable volume panel
+- TrafficSB: Hide arrows in statusbar traffic indicators 
+- Added font service
+- invictrix fonts & statix fonts (Settings->Display->Font)
+- Added 3 mode disply cutout (Settings->Display->display cutout settings)
+- DocumentsUI: white navbar for DocumentsUI
+- Translations Updated
+- minor bugfixes and improvments (visit gerrit or github org)
+
+# Following devices are dropped due to inactive maintainers:
+vince, tissot, kenzo
 
 ### 14th Mar, 2019 
 - Android security patch March (r34)
