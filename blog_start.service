@@ -1,0 +1,13 @@
+[Unit]
+Description=ArrowOS Blog Service
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/root/arrowos/
+ExecStart=/usr/bin/ruby2.3 /usr/local/bin/bundle exec jekyll serve --drafts
+Restart=always
+KillSignal=SIGINT
+
+[Install]
+WantedBy=multi-user.target
