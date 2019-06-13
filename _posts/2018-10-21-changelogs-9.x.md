@@ -9,7 +9,7 @@ priority: 999
 
 ## ArrowOS Changelogs for 9.x(PIE)
 
-First Published July 28, 2018 by Kuber Sharma, Bauuuuu, Ganesh Varma, Amitava Mitra<br>
+Published on: July 28, 2018 by Kuber Sharma, Bauuuuu, Ganesh Varma, Amitava Mitra<br>
 Last updated on: 13th June, 2019
 
 ## Important Note

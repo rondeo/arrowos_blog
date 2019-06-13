@@ -9,7 +9,7 @@ priority: 995
 
 ## ArrowOS Changelogs for 8.x(OREO)
 
-Published July 28, 2018 by Kuber Sharma, Bauuuuu, Ganesh Varma, Amitava Mitra<br>
+Published on: July 28, 2018 by Kuber Sharma, Bauuuuu, Ganesh Varma, Amitava Mitra<br>
 Last updated on: 14th October, 2018
 
 ## Important Note
