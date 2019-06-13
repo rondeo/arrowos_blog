@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Changelogs 9.x(PIE)"
-description: "This post is updated regularly whenever there's an update"
+description: "This post is updated regularly || Last updated on: 13th June, 2019"
 thumb_image: "https://avatars3.githubusercontent.com/u/40351870?s=200&v=4"
 tags: [arrowos, changelog, pie]
 priority: 999
@@ -9,8 +9,8 @@ priority: 999
 
 ## ArrowOS Changelogs for 9.x(PIE)
 
-First Published July 28, 2018 by Kuber Sharma, Bauuuuu, Ganesh Varma, Amitava Mitra<br>
-Last updated on: 26th Mar, 2019
+Published on: July 28, 2018 by Kuber Sharma, Bauuuuu, Ganesh Varma, Amitava Mitra<br>
+Last updated on: 13th June, 2019
 
 ## Important Note
 This post is updated whenever there are any new updates!
@@ -25,6 +25,31 @@ All the builds for official devices can be found [here](https://sourceforge.net/
 You can find changelogs for Arrow-8.x(Oreo) [here](https://blog.arrowos.net/posts/changelogs-8-x)
 
 ## CHANGELOGS
+
+### 12th June, 2019
+* Merged latest Aosp tag/June security patch
+* Added CircularStd font
+* Sepolicy update
+* Misc fixes, updates and more(Check more in gerrit)
+
+# Following devices are dropped due to inactive maintainers:
+cedric, platina
+
+### 17th April, 2019
+
+- Added support for Framework Boost ( for selective devices only )
+- Added Aggressive Battery Saver Mode
+- Toast related theme fixes
+- Added AOD tile (specific devices only)
+- Some Phonograph Music player fixes
+- Added Deep Sleep info in System uptime
+- Fixed no service and emergency calls only placement 
+- Added support for .opus file extension
+- Reduce some unnecessary logspam
+- Fix EmergencyDialer showing in recents
+- Media/Ringtone gesture toasts now get themed with system theme (Dark/White)
+- Fonts: Add Roboto Condensed and SanFrancisco Pro
+- Other: bug fixes, improvements / minor updates  etc can be seen in gerrit ( review.arrowos.net )
 
 ### 26th Mar, 2019 
 - Ambient music ticker AoD: make it compatibile with double tap sensor
