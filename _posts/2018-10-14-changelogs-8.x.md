@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Changelogs 8.x(OREO)"
-description: "This post is updated regularly whenever there's an update"
+description: "This post is not updated anymore [DISCONTINUED], please refer to newer version"
 thumb_image: "https://avatars3.githubusercontent.com/u/40351870?s=200&v=4"
 tags: [arrowos, changelog, oreo]
 priority: 995
@@ -13,7 +13,7 @@ Published July 28, 2018 by Kuber Sharma, Bauuuuu, Ganesh Varma, Amitava Mitra<br
 Last updated on: 14th October, 2018
 
 ## Important Note
-This post is updated whenever there are any new updates!
+This post is updated whenever there are any new updates! 
 
 #### DOWNLOADS
 All the builds for official devices can be found [here](https://sourceforge.net/projects/arrow-os/files/arrow-8.x/)
