@@ -1,4 +1,4 @@
 ---
-slug: Zuk-Z2-Plus
+slug: zuk-z2-plus
 name: Lenovo Z2 Plus
 ---
