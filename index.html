@@ -1,67 +1,766 @@
----
-layout: default
-title: "Blog"
-description: "ArrowOS is an AOSP based project started with the aim of keeping things simple, clean and neat. We added just the right and mostly used stuff that will be actually USEFUL at the end of the day, aiming to deliver smooth performance with better battery life"
-pagination:
-  enabled: true
----
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>ArrowOS | Blog</title>
+  <meta name="description" content="ArrowOS is an AOSP based project started with the aim of keeping things simple, clean and neat. We added just the right and mostly used stuff that will be actually USEFUL at the end of the day, aiming to deliver smooth performance with better battery life">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<div class="article-list-device-tag-footer">
+  <meta property="og:title" content="Blog">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://blog.arrowos.net/index.html">
+  <meta property="og:description" content="ArrowOS is an AOSP based project started with the aim of keeping things simple, clean and neat. We added just the right and mostly used stuff that will be actually USEFUL at the end of the day, aiming to deliver smooth performance with better battery life">
+  <meta property="og:site_name" content="ArrowOS">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:url" content="https://blog.arrowos.net/index.html">
+  <meta name="twitter:title" content="Blog">
+  <meta name="twitter:description" content="ArrowOS is an AOSP based project started with the aim of keeping things simple, clean and neat. We added just the right and mostly used stuff that will be actually USEFUL at the end of the day, aiming to deliver smooth performance with better battery life">
+
+  <!-- cookies consent -->
+  <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
+  <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
+  <script>
+  window.addEventListener("load", function(){
+  window.cookieconsent.initialise({
+    "palette": {
+      "popup": {
+        "background": "#252e39"
+      },
+      "button": {
+        "background": "#14a7d0"
+      }
+    },
+    "position": "top"
+  })});
+  </script>
+
+  
+    <meta property="og:image" content="https://blog.arrowos.net/assets/og-image-979035e7397018717b261878c554835fdcf4139de815c6cf175b94e058c5890d.png">
+    <meta name="twitter:image" content="https://blog.arrowos.net/assets/og-image-979035e7397018717b261878c554835fdcf4139de815c6cf175b94e058c5890d.png">
+  
+
+  <link href="https://blog.arrowos.net/feed.xml" type="application/rss+xml" rel="alternate" title="ArrowOS Last 10 blog posts" />
+
+  
+    <link rel="stylesheet" type="text/css" href="/assets/fonts-85dab368d056b5d66418fbfd7e55a89f34f644ee811c8218c81017204426121b.css">
+  
+
+  
+    <link rel="icon" type="image/x-icon" href="/assets/favicon-dark-b7e7776db29798fffea3cb213e8804cfe57dd39c51108663af475f5825073c4c.ico">
+    <link rel="apple-touch-icon" href="/assets/apple-touch-icon-dark-c9d6dbec030681b1e1f6a0dfbc2fe9e6d9122b61cac35b5d04e5949a4df92675.png">
+    <link rel="stylesheet" type="text/css" href="/assets/dark-d82912011dc35903374b7c508c08dff37736e7469744030ccb0841b750adcf99.css">
+  
+</head>
+
+<body>
+  <main>
+    <div class="grid grid-centered">
+      <div class="grid-cell">
+        <nav class="header-nav scrollappear">
+  <a href="/" class="header-logo" title="ArrowOS"><img class="nav-logo" src="/assets/nav-logo-b7f227c4947f2205470eba2fe535899d2ea41b307dd99199009931f8099777b9.png"/>rrowOS</a>
+  <ul class="header-links">
+    
+      <li>
+        <a href="/about" title="About me">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-about">
+  <use href="/assets/about-ecf154b571ab8034ae00aeed91a3b7ad68db80b46d958753ad6216c919486e88.svg#icon-about" xlink:href="/assets/about-ecf154b571ab8034ae00aeed91a3b7ad68db80b46d958753ad6216c919486e88.svg#icon-about"></use>
+</svg>
+
+        </a>
+      </li>
+    
+    
+    
+    
+    
+      <li>
+        <a href="https://github.com/ArrowOS" rel="noreferrer noopener" target="_blank" title="GitHub">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-github">
+  <use href="/assets/github-094f81040819f34343ee6ffff0980f17e2807b08b595eaaf66ae3554934fd78d.svg#icon-github" xlink:href="/assets/github-094f81040819f34343ee6ffff0980f17e2807b08b595eaaf66ae3554934fd78d.svg#icon-github"></use>
+</svg>
+
+        </a>
+      </li>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      <li>
+        <a href="mailto:arrowos.contact@gmail.com" title="Email">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-email">
+  <use href="/assets/email-782473193bf750036fdb90e8daa075508a20509d01854c09f3237c144a3f0601.svg#icon-email" xlink:href="/assets/email-782473193bf750036fdb90e8daa075508a20509d01854c09f3237c144a3f0601.svg#icon-email"></use>
+</svg>
+
+        </a>
+      </li>
+    
+    
+  </ul>
+</nav>
+
+        <div class="article-list-device-tag-footer">
     <div class="article-list-device-tag">      
-    {% for post in paginator.posts %}
-    {% if post.device-tag and post.device-tag != blank %}
-        <a href="{{ 'posts/' | relative_url }}{{ post.device-tag }}" title="See all posts of this device"><span class="dott">{{ post.device-tag }}</span></a>
-    {% endif %}
-    {% endfor %}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        <a href="/posts/moto-g5-plus" title="See all posts of this device"><span class="dott">moto-g5-plus</span></a>
+    
+    
+    
+        <a href="/posts/zenfone3" title="See all posts of this device"><span class="dott">zenfone3</span></a>
+    
+    
+    
+        <a href="/posts/redmi-note-5-pro" title="See all posts of this device"><span class="dott">redmi-note-5-pro</span></a>
+    
+    
+    
+        <a href="/posts/redmi-note-3" title="See all posts of this device"><span class="dott">redmi-note-3</span></a>
+    
+    
+    
+        <a href="/posts/oneplus3" title="See all posts of this device"><span class="dott">oneplus3</span></a>
+    
+    
+    
+        <a href="/posts/pocophone-f1" title="See all posts of this device"><span class="dott">pocophone-f1</span></a>
+    
+    
+    
+        <a href="/posts/zuk-z2-plus" title="See all posts of this device"><span class="dott">zuk-z2-plus</span></a>
+    
+    
     </div>
 </div>
 
 <ul class="article-list">
-  {% for post in paginator.posts %}
-    <li class="article-list-item {% if site.scrollappear_enabled %}scrollappear{% endif %}">
-    <a href="{{ post.url | relative_url }}" title="{{ post.title }}">
+  
+    <li class="article-list-item scrollappear">
+    <a href="/posts/what-is-arrowos" title="What is ArrowOS?">
         <h5>
-          {{ post.title }}
-          {% include svg-icon.html icon="arrow-right" %}
+          What is ArrowOS?
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-arrow-right">
+  <use href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right" xlink:href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right"></use>
+</svg>
+
         </h5>
       </a>
       <p>
-        {% if post.description %}
-          {{ post.description }}  
-        {% else %}
-          {{ post.excerpt }}
-        {% endif %}
+        
+          ArrowOS is an AOSP based project started with the aim of keeping things simple, clean and neat. We added just the right and mostly used stuff that will be actually USEFUL at the end of the day, aiming to deliver smooth performance with better battery life  
+        
       </p>
       <div class="article-list-footer">
         <span class="article-list-date">
-          {{ post.date | date: "%B %-d, %Y" }}
+          October 12, 2018
         </span>
         <span class="article-list-divider">-</span>
         <span class="article-list-minutes">
-          {% capture words %}
-            {{ post.content | number_of_words }}
-          {% endcapture %}
-          {% unless words contains "-" %}
-            {{ words | plus: 250 | divided_by: 250 | append: " minute read" }}
-          {% endunless %}
+          
+          
+            3 minute read
+          
         </span>
         <span class="article-list-divider">-</span>
         <div class="article-list-tags">
-          {% for tag in post.tags %}
-            <a href="{{ 'tag/' | relative_url }}{{ tag }}">{{ tag }}</a>
-          {% endfor %}
+          
+            <a href="/tag/arrowos">arrowos</a>
+          
+            <a href="/tag/android">android</a>
+          
+            <a href="/tag/features">features</a>
+          
         </div>
       </div>
     </li>
-  {% endfor %}
-  {% if paginator.total_pages > 1 %}
-    <li class="article-pagination {% if site.settings.scrollappear_enabled %}scrollappear{% endif %}">
-      {% if paginator.next_page %}
-        <a href="{{ paginator.next_page_path }}" class="article-pagination-left">{% include svg-icon.html icon="arrow-left" %} Older posts</a>
-      {% endif %}
-      {% if paginator.previous_page %}
-        <a href="{{ paginator.previous_page_path }}" class="article-pagination-right">Newer posts {% include svg-icon.html icon="arrow-right" %}</a>
-      {% endif %}
+  
+    <li class="article-list-item scrollappear">
+    <a href="/posts/changelogs-9-x" title="Changelogs 9.x(PIE)">
+        <h5>
+          Changelogs 9.x(PIE)
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-arrow-right">
+  <use href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right" xlink:href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right"></use>
+</svg>
+
+        </h5>
+      </a>
+      <p>
+        
+          This post is updated regularly || Last updated on: 13th June, 2019  
+        
+      </p>
+      <div class="article-list-footer">
+        <span class="article-list-date">
+          October 21, 2018
+        </span>
+        <span class="article-list-divider">-</span>
+        <span class="article-list-minutes">
+          
+          
+            9 minute read
+          
+        </span>
+        <span class="article-list-divider">-</span>
+        <div class="article-list-tags">
+          
+            <a href="/tag/arrowos">arrowos</a>
+          
+            <a href="/tag/changelog">changelog</a>
+          
+            <a href="/tag/pie">pie</a>
+          
+        </div>
+      </div>
     </li>
-  {% endif %}
+  
+    <li class="article-list-item scrollappear">
+    <a href="/posts/where-are-the-features" title="Where are the features?">
+        <h5>
+          Where are the features?
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-arrow-right">
+  <use href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right" xlink:href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right"></use>
+</svg>
+
+        </h5>
+      </a>
+      <p>
+        
+          This is a pathmap to all the features available in the rom  
+        
+      </p>
+      <div class="article-list-footer">
+        <span class="article-list-date">
+          October 15, 2018
+        </span>
+        <span class="article-list-divider">-</span>
+        <span class="article-list-minutes">
+          
+          
+            2 minute read
+          
+        </span>
+        <span class="article-list-divider">-</span>
+        <div class="article-list-tags">
+          
+            <a href="/tag/arrowos">arrowos</a>
+          
+            <a href="/tag/android">android</a>
+          
+            <a href="/tag/features">features</a>
+          
+        </div>
+      </div>
+    </li>
+  
+    <li class="article-list-item scrollappear">
+    <a href="/posts/compilation-guide" title="How to compile ArrowOS from source">
+        <h5>
+          How to compile ArrowOS from source
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-arrow-right">
+  <use href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right" xlink:href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right"></use>
+</svg>
+
+        </h5>
+      </a>
+      <p>
+        
+          guide on how to compile rom from source  
+        
+      </p>
+      <div class="article-list-footer">
+        <span class="article-list-date">
+          October 14, 2018
+        </span>
+        <span class="article-list-divider">-</span>
+        <span class="article-list-minutes">
+          
+          
+            2 minute read
+          
+        </span>
+        <span class="article-list-divider">-</span>
+        <div class="article-list-tags">
+          
+            <a href="/tag/arrowos">arrowos</a>
+          
+            <a href="/tag/guide">guide</a>
+          
+        </div>
+      </div>
+    </li>
+  
+    <li class="article-list-item scrollappear">
+    <a href="/posts/gerrit-guide" title="How to submit patches to ArrowOS Gerrit">
+        <h5>
+          How to submit patches to ArrowOS Gerrit
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-arrow-right">
+  <use href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right" xlink:href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right"></use>
+</svg>
+
+        </h5>
+      </a>
+      <p>
+        
+          This guide helps you on how to start contributing to the project  
+        
+      </p>
+      <div class="article-list-footer">
+        <span class="article-list-date">
+          October 15, 2018
+        </span>
+        <span class="article-list-divider">-</span>
+        <span class="article-list-minutes">
+          
+          
+            3 minute read
+          
+        </span>
+        <span class="article-list-divider">-</span>
+        <div class="article-list-tags">
+          
+            <a href="/tag/arrowos">arrowos</a>
+          
+            <a href="/tag/android">android</a>
+          
+            <a href="/tag/gerrit">gerrit</a>
+          
+        </div>
+      </div>
+    </li>
+  
+    <li class="article-list-item scrollappear">
+    <a href="/posts/changelogs-8-x" title="Changelogs 8.x(OREO)">
+        <h5>
+          Changelogs 8.x(OREO)
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-arrow-right">
+  <use href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right" xlink:href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right"></use>
+</svg>
+
+        </h5>
+      </a>
+      <p>
+        
+          This post is not updated anymore [DISCONTINUED], please refer to newer version  
+        
+      </p>
+      <div class="article-list-footer">
+        <span class="article-list-date">
+          October 14, 2018
+        </span>
+        <span class="article-list-divider">-</span>
+        <span class="article-list-minutes">
+          
+          
+            2 minute read
+          
+        </span>
+        <span class="article-list-divider">-</span>
+        <div class="article-list-tags">
+          
+            <a href="/tag/arrowos">arrowos</a>
+          
+            <a href="/tag/changelog">changelog</a>
+          
+            <a href="/tag/oreo">oreo</a>
+          
+        </div>
+      </div>
+    </li>
+  
+    <li class="article-list-item scrollappear">
+    <a href="/posts/apply-for-maintainership" title="Apply for Maintainership">
+        <h5>
+          Apply for Maintainership
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-arrow-right">
+  <use href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right" xlink:href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right"></use>
+</svg>
+
+        </h5>
+      </a>
+      <p>
+        
+          This form here mentions the requirements and guidelines to be a maintainer  
+        
+      </p>
+      <div class="article-list-footer">
+        <span class="article-list-date">
+          October 14, 2018
+        </span>
+        <span class="article-list-divider">-</span>
+        <span class="article-list-minutes">
+          
+          
+            2 minute read
+          
+        </span>
+        <span class="article-list-divider">-</span>
+        <div class="article-list-tags">
+          
+            <a href="/tag/arrowos">arrowos</a>
+          
+            <a href="/tag/android">android</a>
+          
+            <a href="/tag/maintainership">maintainership</a>
+          
+        </div>
+      </div>
+    </li>
+  
+    <li class="article-list-item scrollappear">
+    <a href="/posts/moto-g5-plus" title="Moto G5 Plus [potter]">
+        <h5>
+          Moto G5 Plus [potter]
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-arrow-right">
+  <use href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right" xlink:href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right"></use>
+</svg>
+
+        </h5>
+      </a>
+      <p>
+        
+          Know more news and tricks about your device from your maintainer.  
+        
+      </p>
+      <div class="article-list-footer">
+        <span class="article-list-date">
+          October 23, 2018
+        </span>
+        <span class="article-list-divider">-</span>
+        <span class="article-list-minutes">
+          
+          
+            2 minute read
+          
+        </span>
+        <span class="article-list-divider">-</span>
+        <div class="article-list-tags">
+          
+            <a href="/tag/arrowos">arrowos</a>
+          
+            <a href="/tag/android">android</a>
+          
+            <a href="/tag/know-more">know-more</a>
+          
+            <a href="/tag/potter">potter</a>
+          
+            <a href="/tag/moto-g5-plus">moto-g5-plus</a>
+          
+        </div>
+      </div>
+    </li>
+  
+    <li class="article-list-item scrollappear">
+    <a href="/posts/zenfone3" title="zenfone3">
+        <h5>
+          zenfone3
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-arrow-right">
+  <use href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right" xlink:href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right"></use>
+</svg>
+
+        </h5>
+      </a>
+      <p>
+        
+          Know more news and tricks about your device from your maintainer.  
+        
+      </p>
+      <div class="article-list-footer">
+        <span class="article-list-date">
+          October 21, 2018
+        </span>
+        <span class="article-list-divider">-</span>
+        <span class="article-list-minutes">
+          
+          
+            1 minute read
+          
+        </span>
+        <span class="article-list-divider">-</span>
+        <div class="article-list-tags">
+          
+            <a href="/tag/arrowos">arrowos</a>
+          
+            <a href="/tag/android">android</a>
+          
+            <a href="/tag/know-more">know-more</a>
+          
+            <a href="/tag/zenfone3">zenfone3</a>
+          
+        </div>
+      </div>
+    </li>
+  
+    <li class="article-list-item scrollappear">
+    <a href="/posts/redmi-note-5-pro" title="Xiaomi Redmi Note 5 Pro [Whyred]">
+        <h5>
+          Xiaomi Redmi Note 5 Pro [Whyred]
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-arrow-right">
+  <use href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right" xlink:href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right"></use>
+</svg>
+
+        </h5>
+      </a>
+      <p>
+        
+          Know more news and tricks about your device from your maintainer.  
+        
+      </p>
+      <div class="article-list-footer">
+        <span class="article-list-date">
+          October 20, 2018
+        </span>
+        <span class="article-list-divider">-</span>
+        <span class="article-list-minutes">
+          
+          
+            2 minute read
+          
+        </span>
+        <span class="article-list-divider">-</span>
+        <div class="article-list-tags">
+          
+            <a href="/tag/arrowos">arrowos</a>
+          
+            <a href="/tag/android">android</a>
+          
+            <a href="/tag/know-more">know-more</a>
+          
+            <a href="/tag/redmi-note-5-pro">redmi-note-5-pro</a>
+          
+        </div>
+      </div>
+    </li>
+  
+    <li class="article-list-item scrollappear">
+    <a href="/posts/redmi-note-3" title="Xiaomi Redmi Note 3 [kenzo]">
+        <h5>
+          Xiaomi Redmi Note 3 [kenzo]
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-arrow-right">
+  <use href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right" xlink:href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right"></use>
+</svg>
+
+        </h5>
+      </a>
+      <p>
+        
+          Know more news and tricks about your device from your maintainer.  
+        
+      </p>
+      <div class="article-list-footer">
+        <span class="article-list-date">
+          October 20, 2018
+        </span>
+        <span class="article-list-divider">-</span>
+        <span class="article-list-minutes">
+          
+          
+            2 minute read
+          
+        </span>
+        <span class="article-list-divider">-</span>
+        <div class="article-list-tags">
+          
+            <a href="/tag/arrowos">arrowos</a>
+          
+            <a href="/tag/android">android</a>
+          
+            <a href="/tag/know-more">know-more</a>
+          
+            <a href="/tag/redmi-note-3">redmi-note-3</a>
+          
+        </div>
+      </div>
+    </li>
+  
+    <li class="article-list-item scrollappear">
+    <a href="/posts/oneplus3" title="OnePlus 3/3T [oneplus3]">
+        <h5>
+          OnePlus 3/3T [oneplus3]
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-arrow-right">
+  <use href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right" xlink:href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right"></use>
+</svg>
+
+        </h5>
+      </a>
+      <p>
+        
+          Know more news and tricks about your device from your maintainer.  
+        
+      </p>
+      <div class="article-list-footer">
+        <span class="article-list-date">
+          October 20, 2018
+        </span>
+        <span class="article-list-divider">-</span>
+        <span class="article-list-minutes">
+          
+          
+            2 minute read
+          
+        </span>
+        <span class="article-list-divider">-</span>
+        <div class="article-list-tags">
+          
+            <a href="/tag/arrowos">arrowos</a>
+          
+            <a href="/tag/android">android</a>
+          
+            <a href="/tag/know-more">know-more</a>
+          
+            <a href="/tag/oneplus3">oneplus3</a>
+          
+        </div>
+      </div>
+    </li>
+  
+    <li class="article-list-item scrollappear">
+    <a href="/posts/pocophone-f1" title="Pocophone F1 [beryllium]">
+        <h5>
+          Pocophone F1 [beryllium]
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-arrow-right">
+  <use href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right" xlink:href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right"></use>
+</svg>
+
+        </h5>
+      </a>
+      <p>
+        
+          Know more news and tricks about your device from your maintainer.  
+        
+      </p>
+      <div class="article-list-footer">
+        <span class="article-list-date">
+          October 18, 2018
+        </span>
+        <span class="article-list-divider">-</span>
+        <span class="article-list-minutes">
+          
+          
+            2 minute read
+          
+        </span>
+        <span class="article-list-divider">-</span>
+        <div class="article-list-tags">
+          
+            <a href="/tag/arrowos">arrowos</a>
+          
+            <a href="/tag/android">android</a>
+          
+            <a href="/tag/know-more">know-more</a>
+          
+            <a href="/tag/pocophone-f1">pocophone-f1</a>
+          
+        </div>
+      </div>
+    </li>
+  
+    <li class="article-list-item scrollappear">
+    <a href="/posts/zuk-z2-plus" title="Lenovo / Zuk Z2 Plus [z2_plus]">
+        <h5>
+          Lenovo / Zuk Z2 Plus [z2_plus]
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-arrow-right">
+  <use href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right" xlink:href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right"></use>
+</svg>
+
+        </h5>
+      </a>
+      <p>
+        
+          Know more news and tricks about your device from your maintainer.  
+        
+      </p>
+      <div class="article-list-footer">
+        <span class="article-list-date">
+          October 18, 2018
+        </span>
+        <span class="article-list-divider">-</span>
+        <span class="article-list-minutes">
+          
+          
+            2 minute read
+          
+        </span>
+        <span class="article-list-divider">-</span>
+        <div class="article-list-tags">
+          
+            <a href="/tag/arrowos">arrowos</a>
+          
+            <a href="/tag/android">android</a>
+          
+            <a href="/tag/know-more">know-more</a>
+          
+            <a href="/tag/zuk-z2-plus">zuk-z2-plus</a>
+          
+            <a href="/tag/z2_plus">z2_plus</a>
+          
+            <a href="/tag/Zuk">Zuk</a>
+          
+        </div>
+      </div>
+    </li>
+  
+  
 </ul>
+
+        <footer class="footer scrollappear">
+  <p>
+    ArrowsOS is AOSP based, free and OpenSource Android custom firmware brought to by
+    <a href="https://arrowos.net/index.html" rel="noreferrer noopener" target="_blank" title="About me">ArrowTeam</a>. Download source code <a href="https://github.com/ArrowOS/android_manifest" rel="noreferrer noopener" target="_blank" title="Download ArrowOS">here</a>.
+  </p>
+</footer>
+
+      </div>
+    </div>
+  </main>
+  
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-127891468-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-127891468-1');
+  </script>
+
+
+<script src="/assets/vendor-2c224c53eb697c739f9490c38819a72184f09472739fd9e492272ef174090428.js" type="text/javascript"></script>
+
+
+
+
+  <script src="/assets/scrollappear-e2da8ea567e418637e31266cc5302126eaa79f62a2273739086358b589a89ee6.js" type="text/javascript"></script>
+
+
+<script src="/assets/application-cfde13ac81ddaf4351b2e739603e2baf688d0fcc9aba613fe62bbb1c7b037fb9.js" type="text/javascript"></script>
+
+</body>
+</html>

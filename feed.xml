@@ -1,20 +1,90 @@
----
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="https://www.w3.org/2005/Atom" xmlns:dc="https://purl.org/dc/elements/1.1/">
   <channel>
-    <title>{{ site.name | xml_escape }}</title>
-    <description>{% if site.description %}{{ site.description | xml_escape }}{% endif %}</description>
-    <link>{{ site.url }}</link>
-    <atom:link href="{{ page.path | absolute_url }}" rel="self" type="application/rss+xml" />
-    {% for post in site.posts limit:10 %}
+    <title>ArrowOS</title>
+    <description></description>
+    <link>https://blog.arrowos.net</link>
+    <atom:link href="https://blog.arrowos.net/feed.xml" rel="self" type="application/rss+xml" />
+    
       <item>
-        <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.description | xml_escape }}</description>
-        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-        <link>{{ post.url | absolute_url }}</link>
-        <guid isPermaLink="true">{{ post.url | absolute_url }}</guid>
+        <title>Moto G5 Plus [potter]</title>
+        <description>Know more news and tricks about your device from your maintainer.</description>
+        <pubDate>Tue, 23 Oct 2018 00:00:00 +0200</pubDate>
+        <link>https://blog.arrowos.net/posts/moto-g5-plus</link>
+        <guid isPermaLink="true">https://blog.arrowos.net/posts/moto-g5-plus</guid>
       </item>
-    {% endfor %}
+    
+      <item>
+        <title>zenfone3</title>
+        <description>Know more news and tricks about your device from your maintainer.</description>
+        <pubDate>Sun, 21 Oct 2018 00:00:00 +0200</pubDate>
+        <link>https://blog.arrowos.net/posts/zenfone3</link>
+        <guid isPermaLink="true">https://blog.arrowos.net/posts/zenfone3</guid>
+      </item>
+    
+      <item>
+        <title>Changelogs 9.x(PIE)</title>
+        <description>This post is updated regularly || Last updated on: 13th June, 2019</description>
+        <pubDate>Sun, 21 Oct 2018 00:00:00 +0200</pubDate>
+        <link>https://blog.arrowos.net/posts/changelogs-9-x</link>
+        <guid isPermaLink="true">https://blog.arrowos.net/posts/changelogs-9-x</guid>
+      </item>
+    
+      <item>
+        <title>Xiaomi Redmi Note 5 Pro [Whyred]</title>
+        <description>Know more news and tricks about your device from your maintainer.</description>
+        <pubDate>Sat, 20 Oct 2018 00:00:00 +0200</pubDate>
+        <link>https://blog.arrowos.net/posts/redmi-note-5-pro</link>
+        <guid isPermaLink="true">https://blog.arrowos.net/posts/redmi-note-5-pro</guid>
+      </item>
+    
+      <item>
+        <title>Xiaomi Redmi Note 3 [kenzo]</title>
+        <description>Know more news and tricks about your device from your maintainer.</description>
+        <pubDate>Sat, 20 Oct 2018 00:00:00 +0200</pubDate>
+        <link>https://blog.arrowos.net/posts/redmi-note-3</link>
+        <guid isPermaLink="true">https://blog.arrowos.net/posts/redmi-note-3</guid>
+      </item>
+    
+      <item>
+        <title>OnePlus 3/3T [oneplus3]</title>
+        <description>Know more news and tricks about your device from your maintainer.</description>
+        <pubDate>Sat, 20 Oct 2018 00:00:00 +0200</pubDate>
+        <link>https://blog.arrowos.net/posts/oneplus3</link>
+        <guid isPermaLink="true">https://blog.arrowos.net/posts/oneplus3</guid>
+      </item>
+    
+      <item>
+        <title>Pocophone F1 [beryllium]</title>
+        <description>Know more news and tricks about your device from your maintainer.</description>
+        <pubDate>Thu, 18 Oct 2018 00:00:00 +0200</pubDate>
+        <link>https://blog.arrowos.net/posts/pocophone-f1</link>
+        <guid isPermaLink="true">https://blog.arrowos.net/posts/pocophone-f1</guid>
+      </item>
+    
+      <item>
+        <title>Lenovo / Zuk Z2 Plus [z2_plus]</title>
+        <description>Know more news and tricks about your device from your maintainer.</description>
+        <pubDate>Thu, 18 Oct 2018 00:00:00 +0200</pubDate>
+        <link>https://blog.arrowos.net/posts/zuk-z2-plus</link>
+        <guid isPermaLink="true">https://blog.arrowos.net/posts/zuk-z2-plus</guid>
+      </item>
+    
+      <item>
+        <title>Where are the features?</title>
+        <description>This is a pathmap to all the features available in the rom</description>
+        <pubDate>Mon, 15 Oct 2018 00:00:00 +0200</pubDate>
+        <link>https://blog.arrowos.net/posts/where-are-the-features</link>
+        <guid isPermaLink="true">https://blog.arrowos.net/posts/where-are-the-features</guid>
+      </item>
+    
+      <item>
+        <title>How to submit patches to ArrowOS Gerrit</title>
+        <description>This guide helps you on how to start contributing to the project</description>
+        <pubDate>Mon, 15 Oct 2018 00:00:00 +0200</pubDate>
+        <link>https://blog.arrowos.net/posts/gerrit-guide</link>
+        <guid isPermaLink="true">https://blog.arrowos.net/posts/gerrit-guide</guid>
+      </item>
+    
   </channel>
 </rss>
